@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Estatistica estatistica= new Estatistica();
         estatistica.lerMatriz();
-      //  estatistica.mostrarVetor();
         estatistica.ordenarVetor();
         estatistica.mostrarVetor();
         System.out.println("Media:");
